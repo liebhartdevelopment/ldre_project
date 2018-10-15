@@ -1,5 +1,55 @@
+#top-bar,
+#top-bar i
+{
+  color: #a33cde;
+}
+
+.bg-primary {
+  background-color: #6c06a6 !important;
+}
+
+.text-secondary {
+  color: #a33cde !important;
+}
+
 .btn-secondary {
-  color: #fff !important; }
+  color: #fff !important;
+  background-color: #a33cde;
+  border-color: #fff;
+}
+
+.btn-secondary:focus,
+.btn-secondary:hover
+{
+  background-color: #6c06a6;
+  border-color: #a33cde;
+}
+
+.badge-secondary {
+  background-color: #a33cde;
+}
+
+.btn-primary {
+  background-color: #6c06a6 !important;
+}
+
+.text-success {
+  color: #a33cde !important;
+}
+
+#team p {
+  color: #6c06a6;
+}
+
+.page-item.active .page-link {
+  color: #fff !important;
+  background-color: #6c06a6 !important;
+  border-color: #fff !important;
+}
+
+.page-item .page-link {
+  color: #a33cde !important;
+}
 
 img {
   width: 100%; }
@@ -13,6 +63,28 @@ img {
 
 .social a {
   margin-right: 0.4rem; }
+
+.breadcrumb-item a {
+  color: #fff !important;
+}
+
+.breadcrumb-item.active {
+  color: #b8b8b8;
+}
+
+.breadcrumb {
+  background-color: #6c06a6;
+}
+
+#work hr {
+  background-color: #a33cde !important;
+  width: 65%;
+  height: 0.05em;
+}
+
+.bg-dark {
+  background-color: #a7a7a7 !important;
+}
 
 #showcase {
   background: url(../img/showcase.jpg) no-repeat top center fixed/cover;
@@ -45,7 +117,9 @@ img {
     left: 0;
     min-height: 100%;
     width: 100%;
-    background: rgba(32, 134, 107, 0.8); }
+    background: #a33cde;
+    opacity: 0.8;
+  }
 
 #showcase-inner {
   background: url(../img/building.jpg) no-repeat top center fixed/cover;
@@ -59,7 +133,9 @@ img {
     left: 0;
     min-height: 100%;
     width: 100%;
-    background: rgba(32, 134, 107, 0.8); }
+    background: #a33cde;
+    opacity: 0.8;
+  }
   #showcase-inner.showcase-search {
     min-height: 270px; }
 
