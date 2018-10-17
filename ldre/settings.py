@@ -84,8 +84,8 @@ WSGI_APPLICATION = 'ldre.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ldredb',
-        'USER': 'postgres',
+        'NAME': '',
+        'USER': '',
         'PASSWORD': '',
         'HOST': 'localhost'
     }
@@ -141,13 +141,6 @@ MEDIA_URL = '/media/'
 MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
-
-# Email config
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = ''
-EMAIL_HOST_PASSWORD = ''
-EMAIL_USE_TLS = True
 
 try:
     from .local_settings import *
